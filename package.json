@@ -1,7 +1,6 @@
 {
   "name": "jnp--components--library",
   "type": "module",
-  "private": "false",
   "version": "0.0.1",
   "files": [
     "dist"
