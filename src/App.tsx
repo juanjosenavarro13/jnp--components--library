@@ -1,4 +1,4 @@
-import { JnpButton } from "./components";
+import { JnpButton } from "./lib";
 
 function App() {
   return (
