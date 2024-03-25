@@ -1,7 +1,7 @@
 {
   "name": "jnp--components--library",
   "type": "module",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "license": "MIT",
   "author": "Juan José Navarro Perea",
   "main": "./dist/index.umd.js",
