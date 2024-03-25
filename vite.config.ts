@@ -8,14 +8,17 @@ export default defineConfig({
   plugins: [
     react(),
     dts({
-      outDir: "dist/types",
+      outDir: "./dist/types",
+      exclude: ["**/index.**", "**/App.tsx", "**/main.tsx"],
     }),
   ],
   build: {
     lib: {
+      formats: ["es"],
       entry: resolve(__dirname, "src/index.ts"),
-      name: "jnp-components",
-      fileName: "jnp",
+    },
+    rollupOptions: {
+      external: ["react", "react/jsx-runtime"],
     },
   },
 });
