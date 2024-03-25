@@ -8,13 +8,13 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/jnp.umd.cjs",
-  "module": "./dist/jnp.js",
-  "types": ".dist/index.d.ts",
+  "main": "./dist/jnp--components--library.umd.js",
+  "module": "./dist/jnp--components--library.es.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/jnp.js",
-      "require": "./dist/jnp.umd.cjs"
+      "import": "./dist/jnp--components--library.es.js",
+      "require": "./dist/jnp--components--library.umd.js"
     }
   },
   "scripts": {
