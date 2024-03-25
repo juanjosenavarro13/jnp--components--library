@@ -2,6 +2,8 @@
   "name": "jnp--components--library",
   "type": "module",
   "version": "0.0.3",
+  "license": "MIT",
+  "author": "Juan José Navarro Perea",
   "repository": "https://github.com/juanjosenavarro13/jnp--components--library",
   "files": [
     "dist"
@@ -41,8 +43,5 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   }
 }
