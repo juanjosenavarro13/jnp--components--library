@@ -1,0 +1,48 @@
+@import url("../../styles/variables.css");
+.Button {
+  padding: 1rem;
+  border: 0;
+  cursor: pointer;
+}
+
+.cursorDISABLED {
+  cursor: not-allowed;
+}
+
+/* SIZES */
+.borderRadiusSM {
+  border-radius: 0.2rem;
+}
+.borderRadiusMD {
+  border-radius: 0.5rem;
+}
+.borderRadiusXL {
+  border-radius: 1rem;
+}
+.borderRadiusFULL {
+  border-radius: 100%;
+}
+
+/* PRIMARY */
+.colorPRIMARY {
+  background-color: var(--bg-primary);
+  color: white;
+}
+.colorPRIMARY:hover {
+  background-color: var(--bg-primary-hover);
+}
+.colorPRIMARY[disabled]:hover {
+  background-color: var(--bg-primary);
+}
+
+/* SECONDARY */
+.colorSECONDARY {
+  background-color: var(--bg-secondary);
+  color: white;
+}
+.colorSECONDARY:hover {
+  background-color: var(--bg-secondary-hover);
+}
+.colorSECONDARY[disabled]:hover {
+  background-color: var(--bg-secondary);
+}

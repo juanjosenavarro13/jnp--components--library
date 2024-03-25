@@ -1,0 +1,18 @@
+:root {
+  --bg-primary: #0d6efd;
+  --bg-primary-hover: #0b5ed7;
+  --bg-secondary: #6c757d;
+  --bg-secondary-hover: #5c636a;
+  --bg-success: #198754;
+  --bg-success-hover: #157347;
+  --bg-danger: #dc3545;
+  --bg-danger-hover: #bb2d3b;
+  --bg-warning: #ffc107;
+  --bg-warning-hover: #ffca2c;
+  --bg-info: #0dcaf0;
+  --bg-info-hover: #31d2f2;
+  --bg-light: #f8f9fa;
+  --bg-light-hover: #d3d4d5;
+  --bg-dark: #212529;
+  --bg-dark-hover: #424649;
+}
