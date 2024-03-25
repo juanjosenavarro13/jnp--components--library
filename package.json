@@ -1,7 +1,7 @@
 {
   "name": "jnp--components--library",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": "https://github.com/juanjosenavarro13/jnp--components--library",
   "files": [
     "dist"
