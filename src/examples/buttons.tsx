@@ -5,13 +5,13 @@ export function Buttons() {
   return (
     <Section title="Botones">
       <JnpButton label="boton primario" />
-      <JnpButton label="boton secundario" type="SECONDARY" />
-      <JnpButton label="boton success" type="SUCCESS" />
-      <JnpButton label="boton danger" type="DANGER" />
-      <JnpButton label="boton warning" type="WARNING" />
-      <JnpButton label="boton info" type="INFO" />
-      <JnpButton label="boton light" type="LIGHT" />
-      <JnpButton label="boton dark" type="DARK" />
+      <JnpButton label="boton secundario" color="SECONDARY" />
+      <JnpButton label="boton success" color="SUCCESS" />
+      <JnpButton label="boton danger" color="DANGER" />
+      <JnpButton label="boton warning" color="WARNING" />
+      <JnpButton label="boton info" color="INFO" />
+      <JnpButton label="boton light" color="LIGHT" />
+      <JnpButton label="boton dark" color="DARK" />
       <JnpButton label="boton disabled" disabled />
       <JnpButton
         label="boton click"

@@ -27,4 +27,17 @@ describe("jnp button", () => {
 
     expect(button).toHaveAttribute("disabled", "");
   });
+
+  it("type", () => {
+    render(<JnpButton label={label + "1"} type="button" />);
+    render(<JnpButton label={label + "2"} type="reset" />);
+    render(<JnpButton label={label + "3"} type="submit" />);
+    const button1 = screen.getByText(label + "1");
+    const button2 = screen.getByText(label + "2");
+    const button3 = screen.getByText(label + "3");
+
+    expect(button1).toHaveAttribute("type", "button");
+    expect(button2).toHaveAttribute("type", "reset");
+    expect(button3).toHaveAttribute("type", "submit");
+  });
 });
