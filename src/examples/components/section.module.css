@@ -1,0 +1,12 @@
+.section {
+  h1 {
+    display: block;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid #ccc;
+  }
+}
