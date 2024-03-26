@@ -24,21 +24,14 @@ export function JnpButton({
   className,
   outline = false,
 }: Readonly<JnpButtonProps>) {
-  const buttonStyle = clsx(styles.Button, className, {
-    [styles.borderRadiusSM]: borderRadius === "SM",
-    [styles.borderRadiusMD]: borderRadius === "MD",
-    [styles.borderRadiusXL]: borderRadius === "XL",
-    [styles.PRIMARY]: color === "PRIMARY",
-    [styles.SECONDARY]: color === "SECONDARY",
-    [styles.SUCCESS]: color === "SUCCESS",
-    [styles.DANGER]: color === "DANGER",
-    [styles.WARNING]: color === "WARNING",
-    [styles.INFO]: color === "INFO",
-    [styles.LIGHT]: color === "LIGHT",
-    [styles.DARK]: color === "DARK",
-    [styles.DISABLED]: disabled,
-    [styles.OUTLINE]: outline,
-  });
+  const buttonStyle = clsx(
+    styles.Button,
+    className,
+    styles[color],
+    styles[`borderRadius${borderRadius}`],
+    { [styles.DISABLED]: disabled },
+    { [styles.OUTLINE]: outline },
+  );
 
   return (
     <button
