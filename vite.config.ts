@@ -32,6 +32,12 @@ export default defineConfig({
       enabled: true,
       include: ["**/src/lib/**"],
       exclude: ["**/index.ts"],
+      thresholds: {
+        statements: 100,
+        branches: 100,
+        functions: 100,
+        lines: 100,
+      },
     },
     setupFiles: "./setup-test.ts",
   },
