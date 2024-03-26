@@ -11,6 +11,7 @@ interface JnpButtonProps {
   color?: TYPE;
   className?: string;
   type?: "submit" | "reset" | "button";
+  outline?: boolean;
 }
 
 export function JnpButton({
@@ -21,6 +22,7 @@ export function JnpButton({
   color = "PRIMARY",
   type = "button",
   className,
+  outline = false,
 }: Readonly<JnpButtonProps>) {
   const buttonStyle = clsx(styles.Button, className, {
     [styles.borderRadiusSM]: borderRadius === "SM",
@@ -35,6 +37,7 @@ export function JnpButton({
     [styles.LIGHT]: color === "LIGHT",
     [styles.DARK]: color === "DARK",
     [styles.DISABLED]: disabled,
+    [styles.OUTLINE]: outline,
   });
 
   return (

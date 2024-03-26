@@ -118,3 +118,89 @@
 .DARK[disabled]:hover {
   background-color: var(--bg-DARK);
 }
+
+/* OUTLINE */
+.OUTLINE {
+  background-color: transparent;
+  border: 0.1rem solid transparent;
+}
+
+/* OUTLINE PRIMARY */
+.PRIMARY.OUTLINE {
+  border-color: var(--bg-PRIMARY);
+  color: var(--bg-PRIMARY);
+}
+.PRIMARY.OUTLINE:hover {
+  color: white;
+  background-color: var(--bg-PRIMARY);
+}
+
+/* OUTLINE SECONDARY */
+.SECONDARY.OUTLINE {
+  border-color: var(--bg-SECONDARY);
+  color: var(--bg-SECONDARY);
+}
+.SECONDARY.OUTLINE:hover {
+  color: white;
+  background-color: var(--bg-SECONDARY);
+}
+
+/* OUTLINE SUCCESS */
+.SUCCESS.OUTLINE {
+  border-color: var(--bg-SUCCESS);
+  color: var(--bg-SUCCESS);
+}
+.SUCCESS.OUTLINE:hover {
+  color: white;
+  background-color: var(--bg-SUCCESS);
+}
+
+/* OUTLINE DANGER */
+.DANGER.OUTLINE {
+  border-color: var(--bg-DANGER);
+  color: var(--bg-DANGER);
+}
+.DANGER.OUTLINE:hover {
+  color: white;
+  background-color: var(--bg-DANGER);
+}
+
+/* OUTLINE WARNING */
+.WARNING.OUTLINE {
+  border-color: var(--bg-WARNING);
+  color: var(--bg-WARNING);
+}
+.WARNING.OUTLINE:hover {
+  color: black;
+  background-color: var(--bg-WARNING);
+}
+
+/* OUTLINE INFO */
+.INFO.OUTLINE {
+  border-color: var(--bg-INFO);
+  color: var(--bg-INFO);
+}
+.INFO.OUTLINE:hover {
+  color: black;
+  background-color: var(--bg-INFO);
+}
+
+/* OUTLINE LIGHT */
+.LIGHT.OUTLINE {
+  border-color: var(--bg-LIGHT);
+  color: var(--bg-LIGHT);
+}
+.LIGHT.OUTLINE:hover {
+  color: black;
+  background-color: var(--bg-LIGHT);
+}
+
+/* OUTLINE DARK */
+.DARK.OUTLINE {
+  border-color: var(--bg-DARK);
+  color: var(--bg-DARK);
+}
+.DARK.OUTLINE:hover {
+  color: white;
+  background-color: var(--bg-DARK);
+}
