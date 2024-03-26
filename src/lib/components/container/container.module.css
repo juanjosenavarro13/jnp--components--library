@@ -1,0 +1,6 @@
+@import url("../../styles/variables.css");
+
+.container {
+  border: 0.1rem solid var(--bg-SECONDARY);
+  padding: 1rem;
+}
