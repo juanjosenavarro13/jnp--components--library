@@ -1,8 +1,18 @@
 @import url("../../styles/variables.css");
 .Button {
-  padding: 1rem;
   border: 0;
   cursor: pointer;
+}
+
+.sizeSM {
+  height: 1rem;
+}
+.sizeMD {
+  height: 2rem;
+}
+.sizeXL {
+  height: 3rem;
+  padding: 1rem;
 }
 
 .DISABLED {
@@ -18,9 +28,6 @@
 }
 .borderRadiusXL {
   border-radius: 1rem;
-}
-.borderRadiusFULL {
-  border-radius: 100%;
 }
 
 /* PRIMARY */
