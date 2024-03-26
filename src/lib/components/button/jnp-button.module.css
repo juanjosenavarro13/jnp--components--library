@@ -5,7 +5,7 @@
   cursor: pointer;
 }
 
-.cursorDISABLED {
+.DISABLED {
   cursor: not-allowed;
 }
 
@@ -24,25 +24,97 @@
 }
 
 /* PRIMARY */
-.colorPRIMARY {
-  background-color: var(--bg-primary);
+.PRIMARY {
+  background-color: var(--bg-PRIMARY);
   color: white;
 }
-.colorPRIMARY:hover {
-  background-color: var(--bg-primary-hover);
+.PRIMARY:hover {
+  background-color: var(--bg-PRIMARY-hover);
 }
-.colorPRIMARY[disabled]:hover {
-  background-color: var(--bg-primary);
+.PRIMARY[disabled]:hover {
+  background-color: var(--bg-PRIMARY);
 }
 
 /* SECONDARY */
-.colorSECONDARY {
-  background-color: var(--bg-secondary);
+.SECONDARY {
+  background-color: var(--bg-SECONDARY);
   color: white;
 }
-.colorSECONDARY:hover {
-  background-color: var(--bg-secondary-hover);
+.SECONDARY:hover {
+  background-color: var(--bg-SECONDARY-hover);
 }
-.colorSECONDARY[disabled]:hover {
-  background-color: var(--bg-secondary);
+.SECONDARY[disabled]:hover {
+  background-color: var(--bg-SECONDARY);
+}
+
+/* SUCCESS */
+.SUCCESS {
+  background-color: var(--bg-SUCCESS);
+  color: white;
+}
+.SUCCESS:hover {
+  background-color: var(--bg-SUCCESS-hover);
+}
+.SUCCESS[disabled]:hover {
+  background-color: var(--bg-SUCCESS);
+}
+
+/* DANGER */
+.DANGER {
+  background-color: var(--bg-DANGER);
+  color: white;
+}
+.DANGER:hover {
+  background-color: var(--bg-DANGER-hover);
+}
+.DANGER[disabled]:hover {
+  background-color: var(--bg-DANGER);
+}
+
+/* WARNING */
+.WARNING {
+  background-color: var(--bg-WARNING);
+  color: black;
+}
+.WARNING:hover {
+  background-color: var(--bg-WARNING-hover);
+}
+.WARNING[disabled]:hover {
+  background-color: var(--bg-WARNING);
+}
+
+/* INFO */
+.INFO {
+  background-color: var(--bg-INFO);
+  color: black;
+}
+.INFO:hover {
+  background-color: var(--bg-INFO-hover);
+}
+.INFO[disabled]:hover {
+  background-color: var(--bg-INFO);
+}
+
+/* LIGHT */
+.LIGHT {
+  background-color: var(--bg-LIGHT);
+  color: black;
+}
+.LIGHT:hover {
+  background-color: var(--bg-LIGHT-hover);
+}
+.LIGHT[disabled]:hover {
+  background-color: var(--bg-LIGHT);
+}
+
+/* DARK */
+.DARK {
+  background-color: var(--bg-DARK);
+  color: WHITE;
+}
+.DARK:hover {
+  background-color: var(--bg-DARK-hover);
+}
+.DARK[disabled]:hover {
+  background-color: var(--bg-DARK);
 }

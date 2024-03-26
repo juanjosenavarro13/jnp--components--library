@@ -1,18 +1,18 @@
 :root {
-  --bg-primary: #0d6efd;
-  --bg-primary-hover: #0b5ed7;
-  --bg-secondary: #6c757d;
-  --bg-secondary-hover: #5c636a;
-  --bg-success: #198754;
-  --bg-success-hover: #157347;
-  --bg-danger: #dc3545;
-  --bg-danger-hover: #bb2d3b;
-  --bg-warning: #ffc107;
-  --bg-warning-hover: #ffca2c;
-  --bg-info: #0dcaf0;
-  --bg-info-hover: #31d2f2;
-  --bg-light: #f8f9fa;
-  --bg-light-hover: #d3d4d5;
-  --bg-dark: #212529;
-  --bg-dark-hover: #424649;
+  --bg-PRIMARY: #0d6efd;
+  --bg-PRIMARY-hover: #0b5ed7;
+  --bg-SECONDARY: #6c757d;
+  --bg-SECONDARY-hover: #5c636a;
+  --bg-SUCCESS: #198754;
+  --bg-SUCCESS-hover: #157347;
+  --bg-DANGER: #dc3545;
+  --bg-DANGER-hover: #bb2d3b;
+  --bg-WARNING: #ffc107;
+  --bg-WARNING-hover: #ffca2c;
+  --bg-INFO: #0dcaf0;
+  --bg-INFO-hover: #31d2f2;
+  --bg-LIGHT: #f8f9fa;
+  --bg-LIGHT-hover: #d3d4d5;
+  --bg-DARK: #212529;
+  --bg-DARK-hover: #424649;
 }

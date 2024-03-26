@@ -24,9 +24,15 @@ export function JnpButton({
     [styles.borderRadiusSM]: borderRadius === "SM",
     [styles.borderRadiusMD]: borderRadius === "MD",
     [styles.borderRadiusXL]: borderRadius === "XL",
-    [styles.colorPRIMARY]: type === "PRIMARY",
-    [styles.colorSECONDARY]: type === "SECONDARY",
-    [styles.cursorDISABLED]: disabled,
+    [styles.PRIMARY]: type === "PRIMARY",
+    [styles.SECONDARY]: type === "SECONDARY",
+    [styles.SUCCESS]: type === "SUCCESS",
+    [styles.DANGER]: type === "DANGER",
+    [styles.WARNING]: type === "WARNING",
+    [styles.INFO]: type === "INFO",
+    [styles.LIGHT]: type === "LIGHT",
+    [styles.DARK]: type === "DARK",
+    [styles.DISABLED]: disabled,
   });
 
   return (
